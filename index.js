@@ -11,7 +11,7 @@ const {
 // ==============================
 
 const TOKEN = process.env.MTUzNDM1NTAyODM2ODgyMjMzMw.G57eVc.LyaAp5N3j-E3-BtvLmcDhQIiVcGZH71aic5geQ;
-const GUILD_ID = process.env.1342205338895519775;
+process.env.GUILD_ID
 const VOICE_CHANNEL_ID = process.env.1536623864254046238;
 
 // ==============================
@@ -67,9 +67,9 @@ async function joinAFKChannel() {
         connection.on(
             VoiceConnectionStatus.Disconnected,
             async () => {
-
+                    
                 console.log("⚠️ انقطع الاتصال.");
-
+                        
                 try {
 
                     await Promise.race([
