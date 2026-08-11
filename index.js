@@ -10,9 +10,9 @@ const {
 // غيّر الثلاثة هذولا فقط
 // ==============================
 
-const TOKEN = process.env.MTUzNDM1NTAyODM2ODgyMjMzMw.G57eVc.LyaAp5N3j-E3-BtvLmcDhQIiVcGZH71aic5geQ;
-process.env.GUILD_ID
-const VOICE_CHANNEL_ID = process.env.1536623864254046238;
+const TOKEN = process.env.TOKEN;
+const GUILD_ID = process.env.GUILD_ID;
+const VOICE_CHANNEL_ID = process.env.VOICE_CHANNEL_ID;
 
 // ==============================
 
